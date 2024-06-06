@@ -28,24 +28,39 @@ import random
 
 # TODO: Write a print statement that displays both the type and value of `pi`
 pi = math.pi
-
+print(pi)
+print(type(pi)
 
 # TODO: Write a conditional to print out if `i` is less than or greater than 50
 i = random.randint(0, 100)
-
+if i<50:
+    print("i is less than 50")
+else:
+    print("i is greater than 50")
 
 # TODO: Write a conditional that prints the color of the selected sportsball
 picked_sportsball = random.choice(['tennis', 'basketball', 'golf'])
-
+if picked_sportsball=='tennis':
+    print("green")
+elif picked_sportsball=='basketball':
+    print("Orange")
+else:
+    print("white")
 
 # TODO: Write a function that multiplies two numbers and returns the result
 # Define the function here.
-
+num1=int(input())
+num2=int(input())
+def mul(num1,num2):
+    result=num1 * num2
+    return result
+print(mul(num1,num2)):
+  
 
 # TODO: Now call the function a few times to calculate the following answers
 
-print("12 x 96 =",)
+print(mul(12, 96))
 
-print("48 x 17 =",)
+print(mul(48,17))
 
-print("196523 x 87323 =",)
+print(mul(196523, 87323))
